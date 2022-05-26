@@ -19,10 +19,6 @@
   font-family: 'La Belle Aurore', cursive;
 }
 
-// .bottom-tag-html {
-//   margin-left: -20px;
-// }
-
 .container {
   width: 100%;
   will-change: contents;
@@ -30,7 +26,7 @@
   min-height: 566px;
   position: absolute;
   opacity: 0;
-  top: 5%;
+  top: 3%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
@@ -39,11 +35,12 @@
 }
 
 .about-page,
+.project-page,
 .contact-page {
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 8%;
+    top: 5%;
     transform: rotateY(-50%);
     width: 35%;
     vertical-align: middle;
@@ -58,29 +55,6 @@
       position: relative;
       font-weight: 400;
       left: 10px;
-
-      // &::before {
-      //   content: '<h1>';
-      //   font-family: 'la Belle Aurore';
-      //   font-size: 18px;
-      //   position: absolute;
-      //   margin-top: -10px;
-      //   left: -10px;
-      //   opacity: 0.6;
-      //   line-height: 18px;
-      // }
-
-      // &::after {
-      //   content: '<h1/>';
-      //   font-family: 'la Belle Aurore';
-      //   font-size: 18px;
-      //   line-height: 18px;
-      //   position: absolute;
-      //   left: -30px;
-      //   bottom: -20px;
-      //   margin-left: 20px;
-      //   opacity: 0.6;
-      // }
     }
     p {
       font-size: 13px;

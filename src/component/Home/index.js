@@ -14,7 +14,7 @@ const Home = () => {
           {' '}
           <span className="primary-text">
             {''}
-            Hello, <br /> <strong className="i"> I'M </strong>{' '}
+            Hello, <br /> <strong className="i"> I'm </strong>{' '}
             <span className="highlighted-text">Kazeem</span>
           </span>
           <span>
@@ -34,7 +34,7 @@ const Home = () => {
                   1000,
                   'Bootstrap Tooling Utilizer',
                   1000,
-                  'To mention a few',
+                  'To mention a few...',
                   1000,
                 ]}
               />
@@ -47,9 +47,9 @@ const Home = () => {
           </div>
           <div>
             <a
-              href="kazcv.pdf"
+              href="kazeemcv.pdf"
               className="flat-button"
-              download="Kazeem kazcv.pdf"
+              download="Amuzat kazeemcv.pdf"
             >
               GET RESUME
             </a>

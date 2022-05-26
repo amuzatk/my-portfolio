@@ -1,6 +1,5 @@
 import Loader from 'react-loaders'
 import { useState, useEffect, useRef } from 'react'
-import emailjs from '@emailjs/browser'
 import { MapContainer, Popup } from 'react-leaflet'
 import { Marker, TileLayer } from 'react-leaflet'
 
@@ -10,36 +9,6 @@ import ContactForm from './ContactForm'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  // const formRef = useRef()
-
-  //   useEffect(() => {
-  //     return setTimeout(() => {
-  //       setLetterClass('test-animate-hover')
-  //     }, 4000)
-  //   }, [])
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault()
-
-  //   emailjs
-  //     .sendForm(
-  //       'service_pdnd8tj',
-  //       'template_u1o33qi',
-  //       formRef.current,
-  //       'QMfRT6_HemTNXX6z5'
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text)
-  //         console.log('message successfully sent')
-  //           window.location.reload(false)
-  //           console.log("message sent");
-  //       },
-  //       (error) => {
-  //         console.log(error.text)
-  //       }
-  //     )
-  // }
 
   return (
     <>
@@ -60,31 +29,6 @@ const Contact = () => {
           </p>
           <div className="contact-form">
             <ContactForm />
-            {/* <form ref={formRef} onClick={handleSubmit}>
-              <ul>
-                <li>
-                  <input type="text" placeholder="Name" name="user_name" />
-                </li>
-                <li>
-                  <input
-                    type="text"
-                    placeholder="Subject"
-                    name="user_subject"
-                  />
-                </li>
-                <li>
-                  <input type="text" placeholder="Email" name="user_email" />
-                </li>
-                <li>
-                  <textarea rows="5" placeholder="Message" name="message" />
-                </li>
-                <li>
-                  <button type="submit" value="send" className="flat-button">
-                    Send
-                  </button>
-                </li>
-              </ul>
-            </form> */}
           </div>
         </div>
         <div className="info-map">
