@@ -1,5 +1,5 @@
 import Loader from 'react-loaders'
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import { MapContainer, Popup } from 'react-leaflet'
 import { Marker, TileLayer } from 'react-leaflet'
 

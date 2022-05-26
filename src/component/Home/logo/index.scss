@@ -35,3 +35,10 @@
   stroke: #ffd700;
   stroke-width: 10;
 }
+
+.pic-container {
+  position: relative;
+  margin-left: 60%;
+  transform: rotateZ(0deg) !important;
+  width: 100%;
+}
