@@ -1,0 +1,162 @@
+.project-page {
+  .text-style {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    transform: rotateY(-50%);
+    width: 40%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+
+    .personal {
+      font-size: 53px;
+      font-family: coolvetica;
+      color: #ffd700;
+      margin-top: 0;
+      margin-bottom: 40px;
+      position: relative;
+      font-weight: 400;
+      left: 10px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 300;
+      min-width: fit-content;
+      animation: pulse 2s;
+
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+    }
+  }
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.rest {
+  color: aqua;
+  font-size: large;
+}
+
+.b {
+  margin-left: 350px;
+}
+
+h3 {
+  color: #ffd700;
+}
+
+.task-list {
+  color: #11ff00;
+}
+
+.stage-cube-cont-project {
+  width: 50%;
+  height: 100%;
+  padding-top: 15%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.cubespinner-project {
+  animation-name: spincube;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+  transform-style: preserve-3d;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+
+  div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    background: rgba(248, 192, 192, 0.4);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px lightyellow;
+    margin-left: 250px;
+  }
+
+  .pro1 {
+    transform: translateZ(100px);
+  }
+  .pro2 {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  .pro3 {
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+  }
+  .pro4 {
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+  }
+  .pro5 {
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+  }
+  .pro6 {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+}
+
+@keyframes spincube {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateZ(90deg);
+  }
+  83% {
+    transform: rotateX(90deg);
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .project-page {
+    .text-style {
+      width: 47%;
+    }
+  }
+
+  .b {
+    margin-left: 250px;
+  }
+
+  .cubespinner-project {
+    div {
+      width: 80px;
+      height: 80px;
+      border: 1px solid rgb(241, 154, 154);
+      background: rgba(248, 192, 192, 0.4);
+      font-size: 80px;
+      margin-left: 640px;
+    }
+  }
+}

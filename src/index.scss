@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Nueu', sans-serif;
+  color: #444;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: 'Courier New', Courier, monospace;
+// }
+
+// .b {
+//   flex-direction: row;
+//   gap: 50px;
+//   margin-top: 350px;
+//   margin-bottom: 50px;
+//   margin-left: 90px;
+//   font-size: 40px;
+// }
+
+// .b-1 {
+//   list-style-type: none;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 50px;
+//   margin-bottom: 50px;
+//   font-size: 40px;
+// }
+
+// .b-2 {
+//   list-style-type: none;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 50px;
+//   margin-bottom: 50px;
+//   margin-left: 40px;
+//   font-size: 40px;
+// }
+
+// .b-3 {
+//   list-style-type: none;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 50px;
+//   margin-bottom: 50px;
+//   margin-left: 50px;
+//   font-size: 40px;
+// }
+
+// @media screen and (max-width: 375px) {
+//   .text {
+//     margin-top: 1%;
+//     position: absolute;
+//     left: 5%;
+//     top: 10%;
+//   }
+
+//   h1 {
+//     color: rgb(50, 220, 3);
+//   }
+
+//   p {
+//     margin-top: 8px;
+//     width: 99%;
+//     display: flex;
+//     flex-direction: row;
+//     font-size: 18px;
+//     font-family: Helvetica;
+//   }
+
+//   .b {
+//     list-style-type: none;
+//     display: flex;
+//     flex-direction: row;
+//     gap: 50px;
+//     margin-top: 350px;
+//     margin-bottom: 50px;
+//     margin-left: 90px;
+//     font-size: 40px;
+//   }
+
+//   .b-1 {
+//     list-style-type: none;
+//     display: flex;
+//     flex-direction: row;
+//     gap: 50px;
+//     margin-bottom: 50px;
+//     font-size: 40px;
+//   }
+
+//   .b-2 {
+//     list-style-type: none;
+//     display: flex;
+//     flex-direction: row;
+//     gap: 50px;
+//     margin-bottom: 50px;
+//     margin-left: 40px;
+//     font-size: 40px;
+//   }
+
+//   .b-3 {
+//     list-style-type: none;
+//     display: flex;
+//     flex-direction: row;
+//     gap: 50px;
+//     margin-bottom: 50px;
+//     margin-left: 50px;
+//     font-size: 40px;
+//   }
+// }

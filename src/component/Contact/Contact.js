@@ -4,7 +4,7 @@ import { MapContainer, Popup } from 'react-leaflet'
 import { Marker, TileLayer } from 'react-leaflet'
 
 import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
+import './Contact.scss'
 import ContactForm from './ContactForm'
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact-page">
+      <main className="container contact-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -27,6 +27,7 @@ const Contact = () => {
             question, kindly do not hesitate to contact me via email or any of
             my social media handles.
           </p>
+
           <div className="contact-form">
             <ContactForm />
           </div>
@@ -37,7 +38,7 @@ const Contact = () => {
           Nigeria,
           <br />
           Flat 3, Quarters' Extension, Jemilu Lion Street, Kuje, <br />
-          Federal Capital Terrotory, Abuja. <br />
+          Federal Capital Territory, Abuja. <br />
           <span> E: amuzatk@gmail.com</span>
         </div>
         <div className="map-wrap">
@@ -48,10 +49,22 @@ const Contact = () => {
             </Marker>
           </MapContainer>
         </div>
-      </div>
+      </main>
       <Loader type="pacman" />
     </>
   )
 }
 
 export default Contact
+
+// import React from 'react'
+
+// const Contact = () => {
+//   return (
+//     <>
+//       <h1>Contact Page</h1>
+//     </>
+//   )
+// }
+
+// export default Contact
