@@ -47,9 +47,9 @@ const Home = () => {
           </div>
           <div>
             <a
-              href="kazeemcv.pdf"
+              href="Amuzat_Kazeem_cv.pdf"
               className="resume-button"
-              download="Amuzat kazeemcv.pdf"
+              download="Amuzat_kazeem_cv.pdf"
             >
               GET RESUME
             </a>

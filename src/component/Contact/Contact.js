@@ -14,7 +14,7 @@ const Contact = () => {
     <>
       <main className="container contact-page">
         <div className="text-zone">
-          <h1>
+          <h1 className="h-contact">
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', '', 'm', 'e']}
