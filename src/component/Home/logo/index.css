@@ -1,0 +1,18 @@
+.pic-container {
+  position: relative;
+  margin-left: 60%;
+  transform: rotateZ(0deg) !important;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .pic-container {
+    margin-left: 60%;
+    top: 60px;
+    width: 80%;
+  }
+
+  .pix {
+    width: 250px;
+  }
+}/*# sourceMappingURL=index.css.map */

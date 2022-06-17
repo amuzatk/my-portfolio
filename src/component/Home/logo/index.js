@@ -5,7 +5,8 @@ const Logo = () => {
   return (
     <div className="pic-container">
       {' '}
-      <img src={MyPix} alt="k" className="pix" />{' '}
+      <img src={MyPix} alt="k" className="pix" />
+      {' '}
     </div>
   )
 }

@@ -14,8 +14,8 @@ const Home = () => {
           {' '}
           <span className="primary-text">
             {''}
-            Hello, <br /> <strong className="i"> I'm </strong>{' '}
-            <span className="highlighted-text">Kazeem</span>
+            Hello, <br /> <strong className="i"> I'm Kazeem </strong>{' '}
+            {/* <span className="highlighted-text">Kazeem</span> */}
           </span>
           <span>
             {''}
@@ -32,7 +32,7 @@ const Home = () => {
                   1000,
                   'JavaScript Engineer',
                   1000,
-                  'Bootstrap Tooling Utilizer',
+                  'Bootstrap Framework',
                   1000,
                   'To mention a few...',
                   1000,
@@ -40,22 +40,33 @@ const Home = () => {
               />
             </h1>
           </span>
-          <div>
-            <Link to="/contact" className="flat-button">
+          <div className="flat-button">
+            <Link
+              to="/contact"
+              style={{ textDecoration: 'none', color: 'yellow' }}
+            >
               CONTACT ME
             </Link>
-          </div>
-          <div>
-            <a
+            {/* <a
               href="Amuzat_Kazeem_cv.pdf"
               className="resume-button"
               download="Amuzat_kazeem_cv.pdf"
             >
               GET RESUME
+            </a> */}
+          </div>
+          <div className="resume-button">
+            <a
+              href="Amuzat_Kazeem_cv.pdf"
+              // className="resume-button"
+              download="Amuzat_kazeem_cv.pdf"
+              style={{ textDecoration: 'none', color: 'yellow' }}
+            >
+              GET RESUME
             </a>
           </div>
         </div>
-        <Pics />
+        {/* <Pics /> */}
       </div>
 
       <Loader type="pacman" />
