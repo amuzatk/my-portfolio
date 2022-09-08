@@ -70,6 +70,15 @@ const Home = () => {
       </div>
 
       <Loader type="pacman" />
+
+      {/* <!-- Start of centrifugegroup Zendesk Widget script --> */}
+      {/* <script
+        id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=d3dbae7c-6f5b-43e6-a8e7-7bebe02ab711"
+      >
+       
+      </script> */}
+      {/* <!-- End of centrifugegroup Zendesk Widget script --> */}
     </>
   )
 }
