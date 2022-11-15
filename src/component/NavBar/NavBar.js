@@ -45,6 +45,12 @@ const NavBar = () => {
             Contact
           </a>{' '}
         </li>
+
+        <li className="nav-item">
+          <a href="/video" style={{ textDecoration: 'none', color: 'white' }}>
+            Video
+          </a>{' '}
+        </li>
       </ul>
 
       <ul className="social-list">

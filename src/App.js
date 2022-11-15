@@ -32,6 +32,7 @@ import About from './component/About/About'
 import Contact from './component/Contact/Contact'
 import Project from './component/Project/Project'
 import NavBar from './component/NavBar/NavBar'
+import Video from './component/Video/Video'
 import { Switch } from 'react-router-dom'
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/video" element={<Video />} />
       </Routes>
     </>
   )
